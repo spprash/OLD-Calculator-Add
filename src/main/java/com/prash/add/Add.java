@@ -6,10 +6,11 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @EnableAutoConfiguration
+@SpringBootApplication
 public class Add {
 
 	@RequestMapping("/add")
-	String home() {
+	String add() {
 		return "ADD";
 	}
 
